@@ -4,6 +4,7 @@
 
 ## Video Demonstration Link
 
+https://drive.google.com/file/d/1ognPN5XV22sFCDoDrRK5ng-t6OODs4xo/view?usp=sharing
 
 ## Table of contents
 - [Description](#Description)
@@ -26,9 +27,11 @@ This app is the backend portion of an E-Commerce website. Express.js was used fo
     - `git clone git@github.com:stefanpodz303/E-Commerce-Back-End.git`
 - Navigate to the root directory and run: 
     - `npm install`
+- Create the database using the schema.sql file in the db folder.
+- Seed the database in your command line by running:
+    - `npm run seed`
 - To start the server, in the command line run: 
     - `npm start`
-
 
 ## Usage
 This application allows the user to store and navigate through backend e-commerce data for a potential retail business.
